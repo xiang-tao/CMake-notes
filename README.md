@@ -1,2 +1,2 @@
 # CMake-notes
-learn how to use CMake
+learn how to use CMake.
