@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/xt/github/CMake-notes/.vscode",
+  "command": "/usr/bin/c++   -I/home/xt/github/CMake-notes/include    -o CMakeFiles/main.dir/src/main.cpp.o -c /home/xt/github/CMake-notes/src/main.cpp",
+  "file": "/home/xt/github/CMake-notes/src/main.cpp"
+}
+]

@@ -1,0 +1,3 @@
+/home/xt/github/CMake-notes/.vscode/CMakeFiles/rebuild_cache.dir
+/home/xt/github/CMake-notes/.vscode/CMakeFiles/edit_cache.dir
+/home/xt/github/CMake-notes/.vscode/CMakeFiles/main.dir

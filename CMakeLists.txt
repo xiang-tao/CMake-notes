@@ -29,4 +29,16 @@ file(GLOB SRC_LIST ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 #增加-std=c++98
 # set(CMAKE_CXX_STANDARD 98)
 
-add_executable(main  ${SRC_LIST})
+# 指定库文件的输出地址
+# set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/../lib)
+# share表示动态库 calc表示名字
+# add_library(calc SHARED ${SRC_LIST})
+# static生成静态库
+# add_library(calc STATIC ${SRC_LIST})
+
+# 指定要链接的动态库的路径
+link_directories(${PROJECT_SOURCE_DIR}/lib)
+# 添加并生成一个可执行程序
+add_executable(main ${SRC_LIST})
+# 指定要链接的动态库
+target_link_libraries(main calc)
